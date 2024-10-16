@@ -62,6 +62,7 @@ MIDDLEWARE = [
 # Allow frontend origin (e.g., http://localhost:3000)
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
+    "http://localhost:5173",
     # Add your frontend domain in production
 ]
 

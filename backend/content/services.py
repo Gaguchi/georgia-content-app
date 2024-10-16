@@ -18,7 +18,7 @@ def generate_content(prompt, content_type):
     full_prompt = f"{instruction}\n\n{prompt}"
 
     response = openai.ChatCompletion.create(
-        model="gpt-4",
+        model="gpt-3.5-turbo",
         messages=[
             {"role": "system", "content": "You are a helpful assistant."},
             {"role": "user", "content": full_prompt},
